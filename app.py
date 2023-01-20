@@ -5,6 +5,7 @@ import plotly.express as px
 import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.figure_factory as ff
+st.set_page_config(page_title='Olympics Analysis')
 df = pd.read_csv('athlete_event.csv')
 region_df = pd.read_csv('noc_regions.csv')
 
